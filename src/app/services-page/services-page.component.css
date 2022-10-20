@@ -1,0 +1,35 @@
+.servicesHead{
+    display:flex;
+}
+.services h1{
+    font-size: 55px;
+    letter-spacing: 5px;   
+    font-family: "Gilroy ☞";
+    text-align: center;
+    margin-top: 10rem;
+    background:linear-gradient(
+        to left,
+        rgb(255, 251, 4) 20%,
+        rgb(255, 251, 4) 20%,
+        rgb(255, 253, 253) 30%,
+        rgb(255, 255, 255) 100%
+    );
+}
+.servicesHead p{
+    width: 500px;
+    text-align:left;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 150px;
+    margin-left: 180px;   
+}
+.para{
+    display: block;   
+}
+p span{
+    font-size: 12px;
+    margin-top: 0px;
+    font-weight: 100;  
+    text-align: left;
+}
+

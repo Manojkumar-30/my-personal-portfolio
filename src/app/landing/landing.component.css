@@ -1,0 +1,92 @@
+#sections{
+    background:linear-gradient(
+        to right,
+        rgb(255, 251, 4) 0%,
+        rgb(255, 251, 4) 30%,
+        rgb(255, 253, 253) 30%,
+        rgb(255, 255, 255) 100%
+    );
+}
+.leftitems h1{
+    font-size: 90px;
+    font-weight: 600;
+  
+    color:rgb(47, 46, 46);
+
+}
+.change_content::after{
+    content: '';
+    animation: changetext 15s infinite linear;
+    color: rgba(80, 139, 141, 0.849);
+    font-size: 40px;
+    margin-top: 30px;
+    letter-spacing: 5px;
+}
+@keyframes changetext{
+    0%{ content:"develop";}
+    10%{ content:"testing";}
+    20%{ content:"UI/UX_design";}
+    30%{ content:"dataBase";}
+    40%{ content:"maintenance";}
+    50%{ content:"server";}
+    60%{ content:"cloud";}
+    70%{ content:"frontEnd";}
+    80%{ content:"backEnd";}
+    90%{ content:"deploy";}
+    100%{ content:"scalable";}
+    
+}
+.right img{
+    height: 600px;
+    margin-top: 85px;
+}
+.right p{
+    width: 500px;
+    text-align: right;
+    font-weight: 600;
+}   
+#sections{
+    display: flex;
+    width: 100%;
+    height: calc(100% - 80px);
+}
+
+#left{
+    width: 50%;
+    height: 100%;
+    padding: 100px;
+}
+
+#left #smline{
+    width: 90px;
+    height: 6px;   
+    background-color: black;
+}
+#left h4{
+    font-size: 25px;
+    letter-spacing: 5px;   
+    font-family: "Gilroy ☞";
+}
+#left>h5{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #d1d1d1;
+    margin-top: 35px;
+}
+
+#playbtn img{
+    width: 30px;
+}
+
+#playbtn{
+    
+    margin-top: 30px;
+    align-items: center;  
+}
+#playbtn h6{ 
+    text-transform: uppercase;
+}
+.bold{
+    font-weight: 100;
+}

@@ -1,0 +1,66 @@
+.center{
+    display: flex;
+    justify-content: center ;
+    margin-top: 2em;
+    align-items: center;
+}
+h1{
+    font-size: 55px;
+    letter-spacing: 5px;   
+    font-family: "Gilroy ☞";
+    text-align: center;
+    margin-bottom: 100px;
+    margin-left: 4rem;
+    background:linear-gradient(
+        to left,
+        rgb(255, 251, 4) 20%,
+        rgb(255, 251, 4) 20%,
+        rgb(255, 253, 253) 30%,
+        rgb(255, 255, 255) 100%
+    );
+}
+h5
+{
+  margin:10px;
+  font-size:1.4em;
+  font-weight:700;
+}
+p
+{
+  font-size:12px;
+  text-align: left;
+  margin-left: 25px;
+  color: #696969;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.property-card
+{
+  height:25em;
+  width:35em;
+  font-family: 'Poppins',sans-serif;
+  background-color: rgb(252, 249, 71);
+  position:relative;
+  margin-inline: 35px;
+  border-radius:16px;
+  overflow:hidden;
+  transition: 0.4s ease;
+  -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+}
+.property-card:hover{
+    transform:scale(1.1);
+}
+.property-description img{
+    height:260px;
+    width: 600px;
+    border-radius: 5px;
+}
+.property-description
+{ 
+  border-radius: 8px;  
+  width:16em;
+  padding: 0.5em 1em;
+}

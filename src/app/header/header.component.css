@@ -1,0 +1,17 @@
+.bg{
+    
+    position: fixed;
+}
+/* #links{
+    padding: 20px;
+} */
+#links a{
+    padding: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    transition: .5s ease-in-out;
+}
+#links a:hover{
+    color: rgb(82, 184, 218);
+}
